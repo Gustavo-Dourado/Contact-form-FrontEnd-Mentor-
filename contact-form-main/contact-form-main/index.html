@@ -11,6 +11,47 @@
 </head>
 <body>
 
+  <main class="form-container">
+    <form>
+
+      <h2>Entre em contato</h2>
+
+      <fieldset>
+        <label for="first-name">
+          Nome <span>*</span>
+          <input type="text" name="first-name" id="first-name"/>
+        </label>
+        <label for="last-name">
+          Sobrenome <span>*</span>
+          <input type="text" name="last-name" id="last-name"/>
+        </label>
+      </fieldset>
+      
+        <label for="email">
+          Endereço de email <span>*</span>
+          <input type="email" name="email" id="email"/>
+        </label>
+
+      <fieldset>
+        <p>Motivo do contato <span>*</span></p>
+        <input type="radio" name="query-type" value="general" checked>
+        <input type="radio" name="query-type" value="support">
+      </fieldset>
+
+      <label for="message">
+        <textarea name="message" id="message"></textarea>
+      </label>
+
+      <label for="consent">
+        <input type="checkbox" name="consent" id="consent"/>
+        Aceito ser contactado pelo time
+      </label>
+
+      <button type="button">Enviar</button>
+    
+    </form>
+  </main>
+
   Contact Us
 
   First Name
